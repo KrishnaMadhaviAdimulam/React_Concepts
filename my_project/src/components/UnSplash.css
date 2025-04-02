@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.page-container form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.page-container form input{
+    width: 30%;
+    padding: 1rem;
+    border: 3px solid rgb(141, 7, 141);
+    outline: none;
+    font-size: 1rem;
+}
+.page-container form button{
+    padding: 1rem;
+    width: 7rem;
+    background-color: rgb(79, 2, 79);
+    color: white;
+    font-size: 1rem;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+.gallery-container img{
+    width: 300px;
+    height: 300px;
+}
